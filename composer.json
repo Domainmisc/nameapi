@@ -1,0 +1,37 @@
+{
+	"name": "domainmisc/nameapi",
+	"type": "library",
+	"description": "API to make it easier to interact with the name.com reseller api.",
+	"keywords": ["api", "laravel"],
+	"homepage": "http://domainmisc.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "XAOS Interactive",
+			"email": "info@xaos-ia.com",
+			"homepage": "http://xaos-ia.com",
+			"role": "Lead Developer"
+		}
+	],
+	"support": {
+		"email": "devs@xaos-ia.com",
+		"irc": "irc://irc.freenode.org/xaosia"
+	},
+	"require": {
+		"php": ">=5.3.0",
+		"laravel/framework": "4.1.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*",
+		"squizlabs/php_codesniffer": "1.*"
+	},
+	"autoload": {
+		"classmap": [
+			"src/migrations"
+		],
+		"psr-0": {
+			"NameAPI": "src"
+		}
+	},
+	"minimum-stability": "dev"
+}
